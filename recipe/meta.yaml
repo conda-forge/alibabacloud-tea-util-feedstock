@@ -1,5 +1,5 @@
 {% set name = "alibabacloud-tea-util" %}
-{% set version = "0.3.11" %}
+{% set version = "0.3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alibabacloud_tea_util-{{ version }}.tar.gz
-  sha256: f68231e36ccd788ccf3b8d72d67bf76a0fa8f5b7a5f01489484a1f133b448f71
+  sha256: 72a2f5a046e5b977ade4202eb4f65b3d70ad707a548e29aacd4a572c2d18d06b
 
 build:
   noarch: python
